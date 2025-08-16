@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Louis Tomlinson — Faith in the Future</title>
+    <meta name="description" content="Fan site for Louis Tomlinson — Faith in the Future">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#1b1317">
+
+    <link rel="shortcut icon" href="https://via.placeholder.com/16">
+    <link rel="apple-touch-icon-precomposed" href="https://via.placeholder.com/128">
+
+    <link rel="stylesheet" href="https://static.tumblr.com/0du9egr/bXtr8i7v9/opticaicons.css">
+    <link rel="stylesheet" href="https://static.tumblr.com/wfhjxe6/R8zrl6yiu/faithinthefuture-css.css">
+
+    <style>
+        :root {
+            --postWidth: 540px;
+            --sidebarWidth: 380px;
+            --fontSize: 15px;
+            --lineHeight: 150%;
+            --textColor: #1b1317;
+            --fontFamily: Helvetica, sans-serif;
+            --fontFamily2: Arial, sans-serif;
+            --fontFamily3: Didot, Times, serif;
+            --fontWeight: 500;
+            --postBackground: #1b1317;
+            --postText: #9f1717;
+            --accentColor: #9f1717;
+            --accentText: #ffffff;
+            --linkColor: #9f1717;
+        }
+
+        body {
+            font-family: var(--fontFamily);
+            color: var(--textColor);
+            background: #fff;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div id="container" class="flex flex-wrap">
+
+    <!-- SIDEBAR LEFT -->
+    <aside id="side-left" class="flex">
+        <div id="aside_inner" class="flex flex-column">
+            <div id="side_info" class="flex">
+                <a href="/" title="Home"><img class="side_img" src="https://via.placeholder.com/128" alt="Avatar"/></a>
+                <div id="side_text" class="flex flex-column">
+                    <h1 class="side_title"><a href="/" title="Home">Louis Tomlinson</a></h1>
+                    <div class="side_desc">
+                        <p>Fan site — Faith in the Future</p>
+                    </div>
+                </div>
+            </div>
+            <img id="album_title" src="https://static.tumblr.com/hohmoxg/KEjrl4rvr/fitf-title.png" alt="Album Title"/>
+        </div>
+    </aside>
+
+    <!-- MOBILE BUTTON -->
+    <input id="mobile_button" type="checkbox" name="mobile-menu" aria-hidden="true" checked />
+    <label id="mobile_controls" for="mobile_button" aria-hidden="true">
+        ☰
+    </label>
+
+    <!-- SIDEBAR RIGHT -->
+    <aside id="side-right">
+        <div id="aside_inner_right" class="flex flex-column flex-space-between">
+            <nav id="main_menu">
+                <ul class="menu_list menu-bar">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/ask">Ask</a></li>
+                    <li><a href="/submit">Submit</a></li>
+                    <li><a href="/likes">Likes</a></li>
+                    <li><a href="/following">Following</a></li>
+                    <li><a href="/random">Random</a></li>
+                    <li><a href="/archive">Archive</a></li>
+                </ul>
+            </nav>
+            <div id="side_credit">
+                <a href="https://www.tumblr.com/">Powered by Tumblr</a>
+            </div>
+        </div>
+    </aside>
+
+    <!-- CONTENT FEED -->
+    <div id="content_wrapper">
+        <main role="feed" id="post_wrapper">
+
+            <!-- SAMPLE POST -->
+            <article class="post">
+                <div class="post_header"></div>
+                <div class="post_body">
+                    <div class="cpt">
+                        <div class="post_title">
+                            <h2 class="headlines"><span>Sample Post Title</span></h2>
+                        </div>
+                        <div class="caption">
+                            <p>This is a sample post content. Replace with your own text, images, or media.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="post_footer flex flex-space-between flex-wrap">
+                    <div class="date_wrapper flex">
+                        <div class="date_notes">
+                            <div class="pdate">
+                                <a class="ptime" href="#">Just now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons flex pinfo">
+                        <button>Reblog</button>
+                        <button>Like</button>
+                    </div>
+                </div>
+            </article>
+
+        </main>
+    </div>
+
+</div>
+
+<script type="text/javascript" src="https://static.tumblr.com/wfhjxe6/ySRrl6yc4/faithinthefuture-scripts.js"></script>
+</body>
+</html>
